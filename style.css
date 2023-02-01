@@ -1,0 +1,34 @@
+.gallery {
+  display: flex;
+}
+
+.image-container {
+  width: 25%;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+form {
+  height: 200px;
+  width: 96vw;
+  background: black;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+#registered-user {
+  height: 200px;
+  width: 96vw;
+  background-color: darkslategrey;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 8px;
+}

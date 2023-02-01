@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+      <div class="image-container">
+        <img
+          id="img1"
+          src="./images/sign-up-form-button-graphic-concept.jpg"
+          height="280px"
+          width="380px"
+        />
+      </div>
+      <div class="image-container">
+        <img
+          id="img2"
+          src="./images/frankie-lg35FkimT30-unsplash.jpg"
+          height="280px"
+          width="380px"
+        />
+        <div id="display-name"></div>
+      </div>
+      <div class="image-container">
+        <img
+          id="img3"
+          src="./images/maxim-hopman-Hin-rzhOdWs-unsplash.jpg"
+          height="280px"
+          width="380px"
+        />
+      </div>
+      <div class="image-container">
+        <img
+          id="img4"
+          src="./images/tanner-van-dera-oaQ2mTeaP7o-unsplash.jpg"
+          height="280px"
+          width="380px"
+        />
+      </div>
+    </div>
+    <div id="form-container" style="display: none">
+      <form>
+        <h1>Registration Form :</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <label for="username">Username:</label>
+        <input type="text" id="username" required />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <div id="registered-user" style="display: none"></div>
+    <script src="./app2.js"></script>
+  </body>
+</html>
